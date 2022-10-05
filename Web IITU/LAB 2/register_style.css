@@ -1,0 +1,47 @@
+.welcome{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.signin{
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+fieldset div{
+    margin-top: 0px;
+}
+.checker{
+    top:64%;
+}
+.checker2{
+    position:absolute;
+    left: 82%;
+    top: 80%;
+}
+
+#trigger2 {
+    display: none;
+  }
+  .checker2 {
+    background-image: url(images/Vector.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  }
+  #trigger2:checked + .checker2 {
+    background-image: url(images/Group.png);
+  }
+#password2{
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 0.6px solid #282828;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    width:423px;
+    height:59px;
+    }

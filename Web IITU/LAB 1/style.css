@@ -1,0 +1,107 @@
+body{           
+    height: 100vh;
+    background-color: #90EE90;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+    
+}
+h1{
+    color: black;
+    
+    font-size: 50px;
+    -webkit-text-stroke: 0.5px white;
+    
+}
+#about_me{
+    animation: hexcolors 5s infinite alternate;
+}
+@keyframes hexcolors {
+    0% {
+      color: #fe5e41;
+    }
+    20% {
+      color: #646e68;
+    }
+    40% {
+      color: #d8f1a0;
+    }
+    60% {
+      color: #0075f2;
+    }
+    80% {
+      color: #c7a27c;
+    }
+    100% {
+      color: #a23b72;
+    }
+  }
+.hero-unit{
+    padding-top: 5%;
+}
+p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.block1{
+    padding-top:20px;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    background-color:#9efc9e ;
+
+}
+.block1_wrapper{
+    padding-top: 2%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.img1{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+.block1_div{
+    padding-top: 10px;
+}
+
+.img_wrapper{
+    display: flex;
+}
+#block1_div2{
+    margin-left: 2%;
+    width: 80%;
+    padding-top: 10%;
+    
+}
+h3{
+   
+}
+#link_inst{
+    animation: hexcolors 5s infinite alternate;
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+/* Начальные стили для элемента, который будет следовать за курсором, в нашем случае небольшой кружок */
+.follow-cursor {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #0d6efd;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%); /* центрируем кружок */
+    position: absolute; /* задаём абсолютное позиционирование, чтобы элемент не влиял на остальные элементы и его можно было бы позиционировать следом за курсором */
+    z-index: 999; /* чтобы элемент был над остальными элементами */
+    pointer-events: none; /* чтобы сквозь элемент можно было взаимодействовать с элементами, находящимися под ним */
+    transition: width 0.64s, height 0.64s, border-radius 0.64s, background 0.64s;
+  }
+  
+  /* Активный класс для кружка при наведении на ссылку */
+  .follow-cursor_active {
+    height: 128px;
+    width: 128px;
+    border-width: 2px;
+    background: rgba(13,110,253,0.32);
+  }

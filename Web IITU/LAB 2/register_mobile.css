@@ -1,0 +1,59 @@
+@media (min-width: 374px)  and (max-width:376px){
+    body{
+        position: relative;
+        margin: 0;
+        width: 375px;
+        height: 950px;
+    }
+    .login_wrapper img{
+        display: none;
+    }
+    .login_wrapper{
+        margin-left: 26px;
+    }
+    .login_wrapper img{
+        display: none;
+    }
+    .wrapper{
+        margin: 0;
+    }
+    .logo{
+    position: relative;
+    margin: 0px;
+    width: 90px;
+    height: 27px;
+    left: 26px;
+    top: 18px;
+    font-size: 18px;
+
+    }
+    fieldset{
+        width: 324px;
+        height: 757px;
+        position: relative;
+        left:0;
+        top: 100px;
+        padding: 22px;
+    }
+    .login_wrapper{
+        margin-left: 26px;
+    }
+
+    #email, #password,  #password2 ,fieldset button{
+        width: 255px;
+    }
+  
+  .last_a{
+        font-size: 12px;
+        top:3%;
+        left:13%;
+    }
+
+    .checker{
+        top:57.5%;
+    }
+    .checker2{
+        
+        top: 72%;
+    }
+}

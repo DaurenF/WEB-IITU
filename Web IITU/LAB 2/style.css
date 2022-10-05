@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Poppins';
+    margin: 0 auto;
+    width: 1440px;
+    height: 900px;
+}
+.wrapper{
+    margin: 2.5%;
+}
+.logo{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    left: 42px;
+    top: 31px;
+}   
+.welcome{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.login_wrapper{
+    margin-left: 111px;
+}
+fieldset{
+    position: absolute;
+width: 505px;
+height: 701px;
+left: 111px;
+top: 114px;
+padding: 35px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 0.5px solid #878787;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+.signin{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+fieldset div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.login_wrapper{
+    display: flex;
+}
+.login_wrapper img{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+label{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+#email, #password{
+padding-left: 20px;
+background: #FFFFFF;
+border: 0.6px solid #282828;
+border-radius: 6px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+width:423px;
+height:59px;
+}
+.checker{
+    position:absolute;
+    left: 82%;
+    top: 63.5%;
+    
+}
+#trigger {
+    display: none;
+  }
+  .checker {
+    background-image: url(images/Vector.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  }
+  #trigger:checked + .checker {
+    background-image: url(images/Group.png);
+  }
+.buttons{
+    margin-top: 23px;
+}
+.buttons a{
+    position: relative;
+    left:30%;
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+
+color: #4D4D4D;
+
+}
+
+button{
+    margin-top: 38px;
+    background: #000000;
+    border-radius: 6px;
+    color:white;
+    width:423px;
+    height:57px;
+}
+
+.last_a{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+color: #7D7D7D;
+position: relative;
+left:15%;
+top:5%;
+text-decoration: none;
+
+}
+.last_a strong{
+    color:black;
+}
